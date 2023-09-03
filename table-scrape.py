@@ -5,4 +5,4 @@ for i in ('ing-forecasts.html', 'scotiabank-forecast-snapshot.html'):
     dfs = pd.read_html(i)
     for j in range(len(dfs)):
         fn = i.removesuffix(".html") + "_" + str(j) + ".csv"
-        dfs[j].to_csv(fn)
+        dfs[j].dropna(how='all').to_csv(fn)
