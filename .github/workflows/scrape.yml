@@ -12,10 +12,18 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip' 
     - name: Fetch latest data
       run: |-
         curl 'https://www.scotiabank.com/ca/en/about/economics/forecast-snapshot.html' > scotiabank-forecast-snapshot.html
         curl 'https://think.ing.com/forecasts' > ing-forecasts.html
+    - name: Install Python Packages
+      run: python3 -m pip install --user pandas lxml
+    - name: Gen CSVs
+      run: python3 table-scrape.py
     - name: Commit and push if it changed
       run: |-
         git config user.name "GH Action"
