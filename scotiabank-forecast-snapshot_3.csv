@@ -1,10 +1,10 @@
 ,0,1,2,3,4
-0,,2022,2023,2024(F),2025(F)
+0,,2023,2024(F),2025(F),2026(F)
 1,,(annual average),(annual average),(annual average),(annual average)
-2,WTI,95,78,77,66
-3,Brent,101,83,82,71
-4,WCS - WTI Discount,-21,-19,-15,-14
-5,Nymex Natural Gas,6.61,2.73,2.38,3.75
-6,Copper,4.00,3.85,4.18,4.50
-7,Iron Ore,121,120,109,90
-8,Gold,1803,1943,2300,2300
+2,WTI,78,77,66,65
+3,Brent,83,82,71,70
+4,WCS - WTI Discount,-19,-15,-14,-14
+5,Nymex Natural Gas,2.73,2.38,3.75,4.00
+6,Copper,3.85,4.18,4.50,4.75
+7,Iron Ore,120,109,90,90
+8,Gold,1943,2400,2600,2500
