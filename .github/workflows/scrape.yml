@@ -14,8 +14,8 @@ jobs:
       uses: actions/checkout@v3
     - name: Fetch latest data
       run: |-
-        curl 'https://www.scotiabank.com/ca/en/about/economics/forecast-snapshot.html' > scotiabank-forecast-snapshot.html
-        curl 'https://think.ing.com/forecasts' > ing-forecasts.html
+        wget 'https://www.scotiabank.com/ca/en/about/economics/forecast-snapshot.html' -O scotiabank-forecast-snapshot.html
+        wget 'https://think.ing.com/forecasts' -O ing-forecasts.html
     - uses: actions/setup-python@v4
       with:
         python-version: '3.11'
