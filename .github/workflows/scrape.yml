@@ -20,7 +20,7 @@ jobs:
         sudo apt-get -f install
         sudo update-ca-certificates
         wget 'https://www.scotiabank.com/ca/en/about/economics/forecast-snapshot.html' -O scotiabank-forecast-snapshot.html
-        wget 'https://think.ing.com/forecasts' -O ing-forecasts.html
+        wget 'https://think.ing.com/forecasts' -O ing-forecasts.html || wget --no-check-certificate 'https://think.ing.com/forecasts' -O ing-forecasts.html
     - uses: actions/setup-python@v4
       with:
         python-version: '3.11'
