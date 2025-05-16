@@ -15,6 +15,7 @@ jobs:
     - name: Fetch latest data
       run: |-
         sudo apt-get install -y ca-certificates
+        sudo update-ca-certificates
         wget 'https://www.scotiabank.com/ca/en/about/economics/forecast-snapshot.html' -O scotiabank-forecast-snapshot.html
         wget 'https://think.ing.com/forecasts' -O ing-forecasts.html
     - uses: actions/setup-python@v4
