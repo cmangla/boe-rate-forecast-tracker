@@ -27,7 +27,7 @@
         <meta name="author" content="James Smith">
 
         <link rel="alternate" hreflang="en" href="https://think.ing.com/forecasts/" />
-        
+    
         <link rel="alternate" hreflang="x-default" href="https://think.ing.com/forecasts/" />
         <link rel="canonical" href="https://think.ing.com/forecasts/">
 
@@ -81,8 +81,7 @@
     <div class="container container-plus">
     <nav class="navbar-main navbar navbar-expand-md bg-white border" aria-label="ING THINK navigation">
         
-        
-<a href="https://think.ing.com/" class="ing-identifier-think d-none d-lg-flex align-items-center me-4 me-lg-5" tabindex="1">
+        <a href="https://think.ing.com/" class="ing-identifier-think d-none d-lg-flex align-items-center me-4 me-lg-5" tabindex="1">
     <img class="me-2" src="/uploads/general/ing-logo-identifier.svg" alt="ING Logo" height="32">
     <span>THINK</span>
 </a>
@@ -90,7 +89,6 @@
     <img class="me-2" src="/uploads/general/ing-logo-identifier.svg" alt="ING Logo" height="32">
     <span>THINK</span>
 </a>
-
 
         <button class="navbar-toggler position-absolute end-0 m-3 border-0 p-0" type="button" aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTHINKnavbar" aria-controls="offcanvasTHINKnavbar">
             <div class="d-flex"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
@@ -562,7 +560,7 @@
 <input type="hidden" name="sig" value="70de90f92d52b3d72c9a84ff3c6b1fcdc20c59c299e9f4a1fc0541344c849db4" />
 <input type="hidden" name="ACT" value="78" />
 <input type="hidden" name="site_id" value="1" />
-<input type="hidden" name="csrf_token" value="eebb50f1f8fa548d580ab0910ae355ecc9d8eafe" data-updated="true" />
+<input type="hidden" name="csrf_token" value="58dff6f2e207c42273d19e28d33294ea45db3004" data-updated="true" />
 </div>
 
 <form method="get" action="/search/results/">
@@ -580,7 +578,6 @@
         </div>
     </div>
 </div>
-
 
     
 <main class="main">
@@ -701,7 +698,7 @@
             <li><button class="dropdown-item" data-forecast-target="#inflation-cpi" type="button">Inflation (CPI)</button></li>
             <li><button class="dropdown-item" data-forecast-target="#policy-rates" type="button">Policy rates</button></li>
             <li><button class="dropdown-item" data-forecast-target="#month-rates" type="button">3 month rates</button></li>
-            <li><button class="dropdown-item" data-forecast-target="#year-yields" type="button">10-year yields</button></li>
+            <li><button class="dropdown-item" data-forecast-target="#year-yields" type="button">Bonds &amp; Swaps</button></li>
             <li><button class="dropdown-item" data-forecast-target="#fx" type="button">FX</button></li>
             <li><button class="dropdown-item" data-forecast-target="#commodities" type="button">Commodities</button></li>
         </ul>
@@ -712,7 +709,7 @@
             <li><button class="nav-link" id="inflation-cpi-tab" data-bs-toggle="tab" data-bs-target="#inflation-cpi" type="button" role="tab" aria-controls="inflation-cpi" aria-selected="false">Inflation (CPI)</button></li>
             <li><button class="nav-link" id="policy-rates-tab" data-bs-toggle="tab" data-bs-target="#policy-rates" type="button" role="tab" aria-controls="policy-rates" aria-selected="false">Policy rates</button></li>
             <li><button class="nav-link" id="month-rates-tab" data-bs-toggle="tab" data-bs-target="#month-rates" type="button" role="tab" aria-controls="month-rates" aria-selected="false">3 month rates</button></li>
-            <li><button class="nav-link" id="year-yields-tab" data-bs-toggle="tab" data-bs-target="#year-yields" type="button" role="tab" aria-controls="year-yields" aria-selected="false">10-year yields</button></li>
+            <li><button class="nav-link" id="year-yields-tab" data-bs-toggle="tab" data-bs-target="#year-yields" type="button" role="tab" aria-controls="year-yields" aria-selected="false">Bonds &amp; Swaps</button></li>
             <li><button class="nav-link" id="fx-tab" data-bs-toggle="tab" data-bs-target="#fx" type="button" role="tab" aria-controls="fx" aria-selected="false">FX</button></li>
             <li><button class="nav-link" id="commodities-tab" data-bs-toggle="tab" data-bs-target="#commodities" type="button" role="tab" aria-controls="commodities" aria-selected="false">Commodities</button></li>
         </ul>
@@ -2498,14 +2495,12 @@
 		</tr>
 	</tbody>
 </table></div>
-    <div class="tab-pane fade" id="year-yields" role="tabpanel" aria-labelledby="year-yields-tab" tabindex="0"><h2 class="font-ing-display">10-year yields</h2><p>Last updated: 15 May</p>
+    <div class="tab-pane fade" id="year-yields" role="tabpanel" aria-labelledby="year-yields-tab" tabindex="0"><h2 class="font-ing-display">Bonds &amp; Swaps</h2><p>Last updated: 15&nbsp;June</p>
 
 <table>
 	<thead>
 		<tr>
-			<th>
-			<p>G10 (%, eop)</p>
-			</th>
+			<th style="text-align:left">US Treasury yields (%, eop)</th>
 			<th>2Q26F</th>
 			<th>3Q26F</th>
 			<th>4Q26F</th>
@@ -2513,70 +2508,150 @@
 			<th>2Q27F</th>
 			<th>3Q27F</th>
 			<th>4Q27F</th>
+			<th>2026F</th>
+			<th>2027F</th>
+			<th>2028F</th>
 		</tr>
 	</thead>
-	<tbody>
+	<thead>
 		<tr>
-			<td>US: Fed funds</td>
-			<td>3.75</td>
-			<td>3.75</td>
+			<td>UST 2Y</td>
+			<td>4.15</td>
+			<td>4.10</td>
+			<td>4.00</td>
+			<td>3.70</td>
 			<td>3.50</td>
-			<td>3.25</td>
-			<td>3.25</td>
-			<td>3.25</td>
-			<td>3.25</td>
-		</tr>
-		<tr>
-			<td>3M</td>
-			<td>3.65</td>
-			<td>3.60</td>
 			<td>3.40</td>
-			<td>3.15</td>
-			<td>3.15</td>
-			<td>3.15</td>
-			<td>3.15</td>
+			<td>3.40</td>
+			<td>4.00</td>
+			<td>3.40</td>
+			<td>3.40</td>
 		</tr>
 		<tr>
-			<td>2Y</td>
+			<td>UST 5Y</td>
+			<td>4.20</td>
+			<td>4.20</td>
+			<td>4.15</td>
 			<td>3.85</td>
-			<td>3.60</td>
-			<td>3.50</td>
-			<td>3.35</td>
-			<td>3.40</td>
-			<td>3.40</td>
-			<td>3.40</td>
-		</tr>
-		<tr>
-			<td>5Y</td>
-			<td>4.05</td>
-			<td>3.80</td>
-			<td>3.80</td>
-			<td>3.75</td>
 			<td>3.80</td>
 			<td>3.80</td>
 			<td>3.85</td>
+			<td>4.15</td>
+			<td>3.85</td>
+			<td>3.90</td>
 		</tr>
 		<tr>
-			<td>10Y</td>
+			<td>UST 10Y</td>
 			<td>4.50</td>
+			<td>4.50</td>
+			<td>4.50</td>
+			<td>4.25</td>
+			<td>4.25</td>
 			<td>4.30</td>
+			<td>4.40</td>
+			<td>4.50</td>
+			<td>4.40</td>
+			<td>4.50</td>
+		</tr>
+		<tr>
+			<td>UST 30Y</td>
+			<td>5.00</td>
+			<td>5.00</td>
+			<td>5.00</td>
+			<td>4.90</td>
+			<td>5.00</td>
+			<td>5.05</td>
+			<td>5.15</td>
+			<td>5.00</td>
+			<td>5.15</td>
+			<td>5.15</td>
+		</tr>
+	</thead>
+	<thead>
+		<tr>
+			<th style="text-align:left">US swap rates (SOFR, %, eop)</th>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>SOFR</td>
+			<td>3.65</td>
+			<td>3.65</td>
+			<td>3.65</td>
+			<td>3.65</td>
+			<td>3.40</td>
+			<td>3.15</td>
+			<td>3.15</td>
+			<td>3.65</td>
+			<td>3.15</td>
+			<td>3.15</td>
+		</tr>
+		<tr>
+			<td>US 2Y swap</td>
+			<td>4.00</td>
+			<td>3.95</td>
+			<td>3.85</td>
+			<td>3.55</td>
+			<td>3.35</td>
+			<td>3.25</td>
+			<td>3.25</td>
+			<td>3.85</td>
+			<td>3.25</td>
+			<td>3.25</td>
+		</tr>
+		<tr>
+			<td>US 5Y swap</td>
+			<td>3.90</td>
+			<td>3.90</td>
+			<td>3.85</td>
+			<td>3.55</td>
+			<td>3.50</td>
+			<td>3.50</td>
+			<td>3.55</td>
+			<td>3.85</td>
+			<td>3.55</td>
+			<td>3.60</td>
+		</tr>
+		<tr>
+			<td>US 10Y swap</td>
+			<td>4.10</td>
+			<td>4.10</td>
+			<td>4.10</td>
+			<td>3.85</td>
+			<td>3.85</td>
+			<td>3.85</td>
+			<td>3.95</td>
+			<td>4.10</td>
+			<td>3.95</td>
+			<td>4.00</td>
+		</tr>
+		<tr>
+			<td>US 30Y swap</td>
+			<td>4.25</td>
+			<td>4.25</td>
 			<td>4.25</td>
 			<td>4.15</td>
 			<td>4.25</td>
 			<td>4.25</td>
+			<td>4.35</td>
+			<td>4.25</td>
+			<td>4.35</td>
 			<td>4.30</td>
 		</tr>
+	</thead>
+	<thead>
 		<tr>
-			<td>30Y</td>
-			<td>5.10</td>
-			<td>4.90</td>
-			<td>4.85</td>
-			<td>4.75</td>
-			<td>4.75</td>
-			<td>4.75</td>
-			<td>4.75</td>
-		</tr>
-		<tr>
+			<th style="text-align:left">German Bund yields (%, eop)</th>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
@@ -2587,66 +2662,143 @@
 			<td>&nbsp;</td>
 		</tr>
 		<tr>
-			<td>ECB deposit*</td>
-			<td>2.25</td>
-			<td>2.25</td>
-			<td>2.25</td>
-			<td>2.25</td>
-			<td>2.25</td>
-			<td>2.25</td>
-			<td>2.25</td>
-		</tr>
-		<tr>
-			<td>3M</td>
-			<td>2.40</td>
-			<td>2.40</td>
-			<td>2.40</td>
-			<td>2.40</td>
-			<td>2.40</td>
-			<td>2.40</td>
-			<td>2.40</td>
-		</tr>
-		<tr>
-			<td>2Y</td>
+			<td>Bund 2Y</td>
+			<td>2.70</td>
+			<td>2.75</td>
 			<td>2.60</td>
 			<td>2.50</td>
 			<td>2.40</td>
 			<td>2.40</td>
 			<td>2.40</td>
+			<td>2.60</td>
 			<td>2.40</td>
-			<td>2.40</td>
+			<td>2.50</td>
 		</tr>
 		<tr>
-			<td>5Y</td>
+			<td>Bund 5Y</td>
 			<td>2.80</td>
+			<td>2.85</td>
 			<td>2.75</td>
 			<td>2.70</td>
 			<td>2.70</td>
 			<td>2.70</td>
+			<td>2.75</td>
+			<td>2.75</td>
+			<td>2.75</td>
+			<td>2.85</td>
+		</tr>
+		<tr>
+			<td>Bund 10Y</td>
+			<td>2.80</td>
+			<td>2.85</td>
+			<td>2.75</td>
+			<td>2.70</td>
+			<td>2.70</td>
 			<td>2.70</td>
 			<td>2.75</td>
+			<td>2.75</td>
+			<td>2.75</td>
+			<td>2.85</td>
 		</tr>
 		<tr>
-			<td>10Y</td>
-			<td>3.10</td>
-			<td>3.00</td>
-			<td>3.00</td>
-			<td>3.00</td>
-			<td>3.00</td>
-			<td>3.00</td>
-			<td>3.10</td>
-		</tr>
-		<tr>
-			<td>30Y</td>
+			<td>Bund 30Y</td>
+			<td>3.65</td>
+			<td>3.65</td>
 			<td>3.65</td>
 			<td>3.60</td>
 			<td>3.65</td>
 			<td>3.65</td>
-			<td>3.65</td>
-			<td>3.60</td>
 			<td>3.70</td>
+			<td>3.65</td>
+			<td>3.70</td>
+			<td>3.80</td>
+		</tr>
+	</thead>
+	<thead>
+		<tr>
+			<th style="text-align:left">EUR swap rates (EURIBOR 6m, %, eop)</th>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
 		</tr>
 		<tr>
+			<td>EURIBOR 6M</td>
+			<td>2.80</td>
+			<td>2.85</td>
+			<td>2.80</td>
+			<td>2.65</td>
+			<td>2.45</td>
+			<td>2.45</td>
+			<td>2.45</td>
+			<td>2.80</td>
+			<td>2.45</td>
+			<td>2.45</td>
+		</tr>
+		<tr>
+			<td>EUR 2Y swap</td>
+			<td>2.90</td>
+			<td>2.90</td>
+			<td>2.75</td>
+			<td>2.65</td>
+			<td>2.55</td>
+			<td>2.55</td>
+			<td>2.55</td>
+			<td>2.75</td>
+			<td>2.55</td>
+			<td>2.65</td>
+		</tr>
+		<tr>
+			<td>EUR 5Y swap</td>
+			<td>2.95</td>
+			<td>2.95</td>
+			<td>2.85</td>
+			<td>2.75</td>
+			<td>2.75</td>
+			<td>2.75</td>
+			<td>2.80</td>
+			<td>2.85</td>
+			<td>2.80</td>
+			<td>2.90</td>
+		</tr>
+		<tr>
+			<td>EUR 10Y swap</td>
+			<td>3.15</td>
+			<td>3.15</td>
+			<td>3.10</td>
+			<td>2.95</td>
+			<td>2.95</td>
+			<td>2.95</td>
+			<td>3.05</td>
+			<td>3.10</td>
+			<td>3.05</td>
+			<td>3.15</td>
+		</tr>
+		<tr>
+			<td>EUR 30Y swap</td>
+			<td>3.30</td>
+			<td>3.35</td>
+			<td>3.35</td>
+			<td>3.30</td>
+			<td>3.35</td>
+			<td>3.35</td>
+			<td>3.40</td>
+			<td>3.35</td>
+			<td>3.40</td>
+			<td>3.50</td>
+		</tr>
+	</thead>
+	<thead>
+		<tr>
+			<th style="text-align:left">Other G10 bond yields (10Y, %, eop)</th>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
@@ -2658,148 +2810,184 @@
 		</tr>
 		<tr>
 			<td>Japan</td>
-			<td>2.60</td>
-			<td>2.70</td>
-			<td>2.75</td>
-			<td>2.75</td>
-			<td>2.85</td>
+			<td>2.65</td>
+			<td>2.80</td>
+			<td>2.90</td>
+			<td>3.10</td>
+			<td>3.10</td>
+			<td>3.00</td>
+			<td>3.00</td>
+			<td>2.90</td>
 			<td>3.00</td>
 			<td>3.00</td>
 		</tr>
 		<tr>
 			<td>France</td>
+			<td>3.85</td>
+			<td>3.90</td>
+			<td>3.90</td>
+			<td>3.80</td>
 			<td>3.75</td>
 			<td>3.65</td>
 			<td>3.75</td>
+			<td>3.90</td>
 			<td>3.75</td>
-			<td>3.75</td>
-			<td>3.65</td>
-			<td>3.75</td>
+			<td>3.85</td>
 		</tr>
 		<tr>
 			<td>Italy</td>
 			<td>3.85</td>
-			<td>3.75</td>
-			<td>3.75</td>
+			<td>3.90</td>
+			<td>3.85</td>
 			<td>3.75</td>
 			<td>3.75</td>
 			<td>3.70</td>
 			<td>3.80</td>
+			<td>3.85</td>
+			<td>3.80</td>
+			<td>3.90</td>
 		</tr>
 		<tr>
 			<td>Spain</td>
 			<td>3.55</td>
-			<td>3.45</td>
-			<td>3.45</td>
+			<td>3.60</td>
+			<td>3.55</td>
 			<td>3.45</td>
 			<td>3.45</td>
 			<td>3.45</td>
 			<td>3.55</td>
+			<td>3.55</td>
+			<td>3.55</td>
+			<td>3.60</td>
 		</tr>
+	</thead>
+	<thead>
 		<tr>
 			<td>UK</td>
 			<td>5.00</td>
-			<td>4.95</td>
-			<td>4.85</td>
+			<td>5.00</td>
+			<td>4.90</td>
 			<td>4.65</td>
 			<td>4.55</td>
 			<td>4.45</td>
 			<td>4.50</td>
+			<td>4.30</td>
+			<td>4.40</td>
+			<td>4.50</td>
 		</tr>
+	</thead>
+	<tbody>
 		<tr>
 			<td>Netherlands</td>
 			<td>3.20</td>
-			<td>3.10</td>
-			<td>3.05</td>
+			<td>3.25</td>
+			<td>3.15</td>
 			<td>3.05</td>
 			<td>3.05</td>
 			<td>3.05</td>
 			<td>3.15</td>
+			<td>3.15</td>
+			<td>3.15</td>
+			<td>3.20</td>
 		</tr>
 		<tr>
 			<td>Belgium</td>
 			<td>3.65</td>
-			<td>3.55</td>
-			<td>3.55</td>
-			<td>3.55</td>
+			<td>3.70</td>
+			<td>3.70</td>
+			<td>3.60</td>
 			<td>3.55</td>
 			<td>3.55</td>
 			<td>3.65</td>
+			<td>3.70</td>
+			<td>3.65</td>
+			<td>3.75</td>
 		</tr>
 		<tr>
 			<td>Austria</td>
 			<td>3.40</td>
-			<td>3.30</td>
-			<td>3.30</td>
+			<td>3.45</td>
+			<td>3.40</td>
 			<td>3.30</td>
 			<td>3.30</td>
 			<td>3.30</td>
 			<td>3.40</td>
+			<td>3.40</td>
+			<td>3.40</td>
+			<td>3.45</td>
 		</tr>
 		<tr>
 			<td>Ireland</td>
 			<td>3.30</td>
-			<td>3.20</td>
-			<td>3.20</td>
+			<td>3.35</td>
+			<td>3.30</td>
 			<td>3.20</td>
 			<td>3.20</td>
 			<td>3.20</td>
 			<td>3.30</td>
+			<td>3.30</td>
+			<td>3.30</td>
+			<td>3.40</td>
 		</tr>
 		<tr>
 			<td>Portugal</td>
 			<td>3.50</td>
-			<td>3.40</td>
-			<td>3.40</td>
+			<td>3.55</td>
+			<td>3.50</td>
 			<td>3.40</td>
 			<td>3.40</td>
 			<td>3.35</td>
 			<td>3.45</td>
+			<td>3.50</td>
+			<td>3.45</td>
+			<td>3.55</td>
 		</tr>
 		<tr>
 			<td>Switzerland</td>
-			<td>0.50</td>
-			<td>0.40</td>
-			<td>0.50</td>
+			<td>0.45</td>
 			<td>0.50</td>
 			<td>0.50</td>
+			<td>0.45</td>
+			<td>0.45</td>
+			<td>0.45</td>
+			<td>0.55</td>
 			<td>0.50</td>
-			<td>0.60</td>
+			<td>0.55</td>
+			<td>0.70</td>
 		</tr>
 		<tr>
 			<td>Finland</td>
 			<td>3.40</td>
-			<td>3.30</td>
-			<td>3.35</td>
-			<td>3.35</td>
-			<td>3.35</td>
-			<td>3.35</td>
 			<td>3.45</td>
-		</tr>
-		<tr>
-			<td>Canada</td>
-			<td>3.60</td>
-			<td>3.60</td>
+			<td>3.45</td>
+			<td>3.35</td>
+			<td>3.30</td>
+			<td>3.30</td>
+			<td>3.40</td>
+			<td>3.45</td>
+			<td>3.40</td>
 			<td>3.50</td>
-			<td>3.75</td>
-			<td>3.75</td>
-			<td>4.00</td>
-			<td>4.00</td>
 		</tr>
 		<tr>
 			<td>Australia</td>
+			<td>4.95</td>
+			<td>4.90</td>
 			<td>4.80</td>
+			<td>4.70</td>
+			<td>4.70</td>
+			<td>4.70</td>
+			<td>4.70</td>
 			<td>4.80</td>
-			<td>4.75</td>
 			<td>4.70</td>
-			<td>4.70</td>
-			<td>4.70</td>
-			<td>4.70</td>
+			<td>4.50</td>
 		</tr>
 	</tbody>
 	<thead>
 		<tr>
-			<th>EMEA (%, eop)</th>
+			<th style="text-align:left">EMEA (%, eop)</th>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
@@ -2808,8 +2996,6 @@
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 		</tr>
-	</thead>
-	<tbody>
 		<tr>
 			<td>Bulgaria</td>
 			<td>3.65</td>
@@ -2819,61 +3005,84 @@
 			<td>3.15</td>
 			<td>3.15</td>
 			<td>3.20</td>
+			<td>3.50</td>
+			<td>3.20</td>
+			<td>-</td>
 		</tr>
 		<tr>
 			<td>Czech Republic</td>
-			<td>4.92</td>
-			<td>5.18</td>
-			<td>4.96</td>
-			<td>4.60</td>
-			<td>4.40</td>
+			<td>4.88</td>
+			<td>4.74</td>
+			<td>4.52</td>
 			<td>4.24</td>
-			<td>4.22</td>
+			<td>4.20</td>
+			<td>4.20</td>
+			<td>4.20</td>
+			<td>4.52</td>
+			<td>4.20</td>
+			<td>4.20</td>
 		</tr>
 		<tr>
 			<td>Hungary</td>
-			<td>5.75</td>
 			<td>5.50</td>
+			<td>5.25</td>
 			<td>5.60</td>
 			<td>6.25</td>
 			<td>5.50</td>
 			<td>5.25</td>
 			<td>5.00</td>
+			<td>5.60</td>
+			<td>5.00</td>
+			<td>5.00</td>
 		</tr>
 		<tr>
 			<td>Poland</td>
+			<td>5.50</td>
 			<td>5.20</td>
 			<td>5.00</td>
-			<td>4.90</td>
-			<td>4.95</td>
-			<td>4.95</td>
 			<td>5.00</td>
 			<td>5.00</td>
+			<td>5.05</td>
+			<td>5.05</td>
+			<td>5.00</td>
+			<td>5.05</td>
+			<td>5.10</td>
 		</tr>
+	</thead>
+	<tbody>
 		<tr>
 			<td>Russia</td>
-			<td>14.00</td>
-			<td>13.50</td>
-			<td>13.00</td>
+			<td>14.50</td>
+			<td>13.25</td>
+			<td>13.25</td>
 			<td>12.00</td>
 			<td>11.50</td>
 			<td>11.00</td>
 			<td>10.50</td>
+			<td>13.25</td>
+			<td>10.50</td>
+			<td>10.00</td>
 		</tr>
 		<tr>
 			<td>Turkey</td>
-			<td>33.00</td>
-			<td>30.00</td>
-			<td>28.70</td>
-			<td>27.30</td>
-			<td>24.00</td>
-			<td>23.30</td>
-			<td>22.30</td>
+			<td>35.85</td>
+			<td>30.40</td>
+			<td>29.20</td>
+			<td>28.15</td>
+			<td>25.05</td>
+			<td>24.30</td>
+			<td>23.15</td>
+			<td>29.20</td>
+			<td>23.15</td>
+			<td>20.60</td>
 		</tr>
 	</tbody>
 	<thead>
 		<tr>
-			<th>Asia (%, eop)</th>
+			<th style="text-align:left">Asia (%, eop)</th>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
@@ -2882,8 +3091,6 @@
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 		</tr>
-	</thead>
-	<tbody>
 		<tr>
 			<td>China</td>
 			<td>1.90</td>
@@ -2893,16 +3100,22 @@
 			<td>2.05</td>
 			<td>2.10</td>
 			<td>2.15</td>
+			<td>2.00</td>
+			<td>2.15</td>
+			<td>2.15</td>
 		</tr>
 		<tr>
 			<td>India</td>
-			<td>6.80</td>
-			<td>6.80</td>
-			<td>6.80</td>
+			<td>6.90</td>
+			<td>6.90</td>
+			<td>6.90</td>
 			<td>6.40</td>
 			<td>6.40</td>
 			<td>6.40</td>
 			<td>6.40</td>
+			<td>6.90</td>
+			<td>6.40</td>
+			<td>6.50</td>
 		</tr>
 		<tr>
 			<td>Indonesia</td>
@@ -2913,25 +3126,34 @@
 			<td>6.60</td>
 			<td>6.60</td>
 			<td>6.60</td>
+			<td>6.50</td>
+			<td>6.60</td>
+			<td>6.50</td>
 		</tr>
 		<tr>
 			<td>Korea</td>
-			<td>3.90</td>
+			<td>4.20</td>
+			<td>4.00</td>
+			<td>4.00</td>
+			<td>4.00</td>
+			<td>4.00</td>
 			<td>3.75</td>
-			<td>3.50</td>
-			<td>3.50</td>
-			<td>3.50</td>
-			<td>3.50</td>
-			<td>3.50</td>
+			<td>3.75</td>
+			<td>4.00</td>
+			<td>3.75</td>
+			<td>3.75</td>
 		</tr>
 		<tr>
 			<td>Philippines</td>
-			<td>5.60</td>
-			<td>5.60</td>
-			<td>5.50</td>
-			<td>5.75</td>
-			<td>5.75</td>
-			<td>6.00</td>
+			<td>6.30</td>
+			<td>6.50</td>
+			<td>6.50</td>
+			<td>6.40</td>
+			<td>6.25</td>
+			<td>6.25</td>
+			<td>6.25</td>
+			<td>6.50</td>
+			<td>6.25</td>
 			<td>6.00</td>
 		</tr>
 		<tr>
@@ -2943,6 +3165,9 @@
 			<td>2.20</td>
 			<td>2.20</td>
 			<td>2.20</td>
+			<td>2.05</td>
+			<td>2.20</td>
+			<td>2.00</td>
 		</tr>
 		<tr>
 			<td>Taiwan</td>
@@ -2953,8 +3178,11 @@
 			<td>1.65</td>
 			<td>1.70</td>
 			<td>1.70</td>
+			<td>1.60</td>
+			<td>1.70</td>
+			<td>1.80</td>
 		</tr>
-	</tbody>
+	</thead>
 </table></div>
     <div class="tab-pane fade" id="fx" role="tabpanel" aria-labelledby="fx-tab" tabindex="0"><h2 class="font-ing-display">FX</h2><p>Last updated: 18 May</p>
 
