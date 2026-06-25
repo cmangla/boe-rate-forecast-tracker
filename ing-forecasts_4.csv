@@ -1,51 +1,52 @@
-,"US Treasury yields (%, eop)",2Q26F,3Q26F,4Q26F,1Q27F,2Q27F,3Q27F,4Q27F,2026F,2027F,2028F
-,UST 2Y,4.15,4.10,4.00,3.70,3.50,3.40,3.40,4.00,3.40,3.40
+,Unnamed: 0_level_0,2Q26F,3Q26F,4Q26F,1Q27F,2Q27F,3Q27F,4Q27F,2026F,2027F,2028F
+,"US Treasury yields (%, eop)",Unnamed: 1_level_1,Unnamed: 2_level_1,Unnamed: 3_level_1,Unnamed: 4_level_1,Unnamed: 5_level_1,Unnamed: 6_level_1,Unnamed: 7_level_1,Unnamed: 8_level_1,Unnamed: 9_level_1,Unnamed: 10_level_1
+,UST 2Y,4.05,4.05,4.00,3.70,3.50,3.40,3.40,4.00,3.40,3.40
 ,UST 5Y,4.20,4.20,4.15,3.85,3.80,3.80,3.85,4.15,3.85,3.90
 ,UST 10Y,4.50,4.50,4.50,4.25,4.25,4.30,4.40,4.50,4.40,4.50
 ,UST 30Y,5.00,5.00,5.00,4.90,5.00,5.05,5.15,5.00,5.15,5.15
-,"US swap rates (SOFR, %, eop)",Unnamed: 1_level_5,Unnamed: 2_level_5,Unnamed: 3_level_5,Unnamed: 4_level_5,Unnamed: 5_level_5,Unnamed: 6_level_5,Unnamed: 7_level_5,Unnamed: 8_level_5,Unnamed: 9_level_5,Unnamed: 10_level_5
+,"US swap rates (SOFR, %, eop)",Unnamed: 1_level_6,Unnamed: 2_level_6,Unnamed: 3_level_6,Unnamed: 4_level_6,Unnamed: 5_level_6,Unnamed: 6_level_6,Unnamed: 7_level_6,Unnamed: 8_level_6,Unnamed: 9_level_6,Unnamed: 10_level_6
 ,SOFR,3.65,3.65,3.65,3.65,3.40,3.15,3.15,3.65,3.15,3.15
-,US 2Y swap,4.00,3.95,3.85,3.55,3.35,3.25,3.25,3.85,3.25,3.25
+,US 2Y swap,3.90,3.90,3.85,3.55,3.35,3.25,3.25,3.85,3.25,3.25
 ,US 5Y swap,3.90,3.90,3.85,3.55,3.50,3.50,3.55,3.85,3.55,3.60
-,US 10Y swap,4.10,4.10,4.10,3.85,3.85,3.85,3.95,4.10,3.95,4.00
+,US 10Y swap,4.00,4.00,3.95,3.85,3.85,3.85,3.95,3.95,3.95,4.00
 ,US 30Y swap,4.25,4.25,4.25,4.15,4.25,4.25,4.35,4.25,4.35,4.30
-,"German Bund yields (%, eop)",Unnamed: 1_level_11,Unnamed: 2_level_11,Unnamed: 3_level_11,Unnamed: 4_level_11,Unnamed: 5_level_11,Unnamed: 6_level_11,Unnamed: 7_level_11,Unnamed: 8_level_11,Unnamed: 9_level_11,Unnamed: 10_level_11
-,Bund 2Y,2.70,2.75,2.60,2.50,2.40,2.40,2.40,2.60,2.40,2.50
-,Bund 5Y,2.80,2.85,2.75,2.70,2.70,2.70,2.75,2.75,2.75,2.85
-,Bund 10Y,2.80,2.85,2.75,2.70,2.70,2.70,2.75,2.75,2.75,2.85
-,Bund 30Y,3.65,3.65,3.65,3.60,3.65,3.65,3.70,3.65,3.70,3.80
-,"EUR swap rates (EURIBOR 6m, %, eop)",Unnamed: 1_level_16,Unnamed: 2_level_16,Unnamed: 3_level_16,Unnamed: 4_level_16,Unnamed: 5_level_16,Unnamed: 6_level_16,Unnamed: 7_level_16,Unnamed: 8_level_16,Unnamed: 9_level_16,Unnamed: 10_level_16
-,EURIBOR 6M,2.80,2.85,2.80,2.65,2.45,2.45,2.45,2.80,2.45,2.45
-,EUR 2Y swap,2.90,2.90,2.75,2.65,2.55,2.55,2.55,2.75,2.55,2.65
-,EUR 5Y swap,2.95,2.95,2.85,2.75,2.75,2.75,2.80,2.85,2.80,2.90
-,EUR 10Y swap,3.15,3.15,3.10,2.95,2.95,2.95,3.05,3.10,3.05,3.15
-,EUR 30Y swap,3.30,3.35,3.35,3.30,3.35,3.35,3.40,3.35,3.40,3.50
-,"Other G10 bond yields (10Y, %, eop)",Unnamed: 1_level_22,Unnamed: 2_level_22,Unnamed: 3_level_22,Unnamed: 4_level_22,Unnamed: 5_level_22,Unnamed: 6_level_22,Unnamed: 7_level_22,Unnamed: 8_level_22,Unnamed: 9_level_22,Unnamed: 10_level_22
+,"German Bund yields (%, eop)",Unnamed: 1_level_12,Unnamed: 2_level_12,Unnamed: 3_level_12,Unnamed: 4_level_12,Unnamed: 5_level_12,Unnamed: 6_level_12,Unnamed: 7_level_12,Unnamed: 8_level_12,Unnamed: 9_level_12,Unnamed: 10_level_12
+,Bund 2Y,2.60,2.60,2.55,2.50,2.40,2.40,2.40,2.55,2.40,2.50
+,Bund 5Y,2.70,2.70,2.70,2.70,2.70,2.70,2.75,2.70,2.75,2.85
+,Bund 10Y,2.95,2.95,2.95,3.00,3.00,3.00,3.10,2.95,3.10,3.20
+,Bund 30Y,3.50,3.50,3.50,3.60,3.65,3.65,3.70,3.50,3.70,3.80
+,"EUR swap rates (EURIBOR 6m, %, eop)",Unnamed: 1_level_17,Unnamed: 2_level_17,Unnamed: 3_level_17,Unnamed: 4_level_17,Unnamed: 5_level_17,Unnamed: 6_level_17,Unnamed: 7_level_17,Unnamed: 8_level_17,Unnamed: 9_level_17,Unnamed: 10_level_17
+,EURIBOR 6M,2.85,2.85,2.80,2.65,2.45,2.45,2.45,2.80,2.45,2.45
+,EUR 2Y swap,2.80,2.80,2.70,2.65,2.55,2.55,2.55,2.70,2.55,2.65
+,EUR 5Y swap,2.85,2.85,2.80,2.75,2.75,2.75,2.80,2.80,2.80,2.90
+,EUR 10Y swap,3.00,3.00,2.95,2.95,2.95,2.95,3.05,2.95,3.05,3.15
+,EUR 30Y swap,3.15,3.15,3.20,3.30,3.35,3.35,3.40,3.20,3.40,3.50
+,"Other G10 bond yields (10Y, %, eop)",Unnamed: 1_level_23,Unnamed: 2_level_23,Unnamed: 3_level_23,Unnamed: 4_level_23,Unnamed: 5_level_23,Unnamed: 6_level_23,Unnamed: 7_level_23,Unnamed: 8_level_23,Unnamed: 9_level_23,Unnamed: 10_level_23
 ,Japan,2.65,2.80,2.90,3.10,3.10,3.00,3.00,2.90,3.00,3.00
-,France,3.85,3.90,3.90,3.80,3.75,3.65,3.75,3.90,3.75,3.85
-,Italy,3.85,3.90,3.85,3.75,3.75,3.70,3.80,3.85,3.80,3.90
-,Spain,3.55,3.60,3.55,3.45,3.45,3.45,3.55,3.55,3.55,3.60
+,France,3.70,3.70,3.75,3.80,3.75,3.65,3.75,3.75,3.75,3.85
+,Italy,3.70,3.70,3.70,3.75,3.75,3.70,3.80,3.70,3.80,3.90
+,Spain,3.40,3.40,3.40,3.45,3.45,3.45,3.55,3.40,3.55,3.60
 ,UK,5.00,5.00,4.90,4.65,4.55,4.45,4.50,4.30,4.40,4.50
-,"EMEA (%, eop)",Unnamed: 1_level_28,Unnamed: 2_level_28,Unnamed: 3_level_28,Unnamed: 4_level_28,Unnamed: 5_level_28,Unnamed: 6_level_28,Unnamed: 7_level_28,Unnamed: 8_level_28,Unnamed: 9_level_28,Unnamed: 10_level_28
+,"EMEA (%, eop)",Unnamed: 1_level_29,Unnamed: 2_level_29,Unnamed: 3_level_29,Unnamed: 4_level_29,Unnamed: 5_level_29,Unnamed: 6_level_29,Unnamed: 7_level_29,Unnamed: 8_level_29,Unnamed: 9_level_29,Unnamed: 10_level_29
 ,Bulgaria,3.65,3.60,3.50,3.30,3.15,3.15,3.20,3.50,3.20,-
 ,Czech Republic,4.88,4.74,4.52,4.24,4.20,4.20,4.20,4.52,4.20,4.20
-,Hungary,5.50,5.25,5.60,6.25,5.50,5.25,5.00,5.60,5.00,5.00
+,Hungary,5.25,5.25,5.60,6.05,5.50,5.25,5.00,5.60,5.00,4.75
 ,Poland,5.50,5.20,5.00,5.00,5.00,5.05,5.05,5.00,5.05,5.10
-,"Asia (%, eop)",Unnamed: 1_level_33,Unnamed: 2_level_33,Unnamed: 3_level_33,Unnamed: 4_level_33,Unnamed: 5_level_33,Unnamed: 6_level_33,Unnamed: 7_level_33,Unnamed: 8_level_33,Unnamed: 9_level_33,Unnamed: 10_level_33
-,China,1.90,1.95,2.00,2.00,2.05,2.10,2.15,2.00,2.15,2.15
+,"Asia (%, eop)",Unnamed: 1_level_34,Unnamed: 2_level_34,Unnamed: 3_level_34,Unnamed: 4_level_34,Unnamed: 5_level_34,Unnamed: 6_level_34,Unnamed: 7_level_34,Unnamed: 8_level_34,Unnamed: 9_level_34,Unnamed: 10_level_34
+,China,1.75,1.80,1.85,1.90,1.95,1.95,2.00,1.85,2.00,2.15
 ,India,6.90,6.90,6.90,6.40,6.40,6.40,6.40,6.90,6.40,6.50
 ,Indonesia,6.70,6.60,6.50,6.60,6.60,6.60,6.60,6.50,6.60,6.50
-,Korea,4.20,4.00,4.00,4.00,4.00,3.75,3.75,4.00,3.75,3.75
+,Korea,4.20,4.30,4.50,4.25,4.25,4.20,4.15,4.50,4.15,4.00
 ,Philippines,6.30,6.50,6.50,6.40,6.25,6.25,6.25,6.50,6.25,6.00
 ,Singapore,2.10,2.10,2.05,2.20,2.20,2.20,2.20,2.05,2.20,2.00
 ,Taiwan,1.60,1.60,1.60,1.65,1.65,1.70,1.70,1.60,1.70,1.80
-0,Netherlands,3.2,3.25,3.15,3.05,3.05,3.05,3.15,3.15,3.15,3.2
-1,Belgium,3.65,3.7,3.7,3.6,3.55,3.55,3.65,3.7,3.65,3.75
-2,Austria,3.4,3.45,3.4,3.3,3.3,3.3,3.4,3.4,3.4,3.45
-3,Ireland,3.3,3.35,3.3,3.2,3.2,3.2,3.3,3.3,3.3,3.4
-4,Portugal,3.5,3.55,3.5,3.4,3.4,3.35,3.45,3.5,3.45,3.55
+0,Netherlands,3.05,3.05,3.0,3.05,3.05,3.05,3.15,3.0,3.15,3.2
+1,Belgium,3.5,3.5,3.55,3.6,3.55,3.55,3.65,3.55,3.65,3.75
+2,Austria,3.2,3.2,3.2,3.25,3.25,3.25,3.35,3.2,3.35,3.45
+3,Ireland,3.15,3.15,3.15,3.2,3.2,3.2,3.3,3.15,3.3,3.4
+4,Portugal,3.3,3.3,3.3,3.35,3.35,3.35,3.45,3.3,3.45,3.55
 5,Switzerland,0.45,0.5,0.5,0.45,0.45,0.45,0.55,0.5,0.55,0.7
-6,Finland,3.4,3.45,3.45,3.35,3.3,3.3,3.4,3.45,3.4,3.5
+6,Finland,3.3,3.3,3.3,3.35,3.3,3.3,3.4,3.3,3.4,3.5
 7,Australia,4.95,4.9,4.8,4.7,4.7,4.7,4.7,4.8,4.7,4.5
-8,Russia,14.5,13.25,13.25,12.0,11.5,11.0,10.5,13.25,10.5,10.0
-9,Turkey,35.85,30.4,29.2,28.15,25.05,24.3,23.15,29.2,23.15,20.6
+8,Russia,14.25,14.0,14.0,12.0,11.5,11.0,10.5,14.0,10.5,10.0
+9,Turkey,33.5,29.0,28.7,27.7,24.4,24.1,23.05,28.7,23.05,20.5
