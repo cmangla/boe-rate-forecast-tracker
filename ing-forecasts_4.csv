@@ -27,12 +27,13 @@
 ,Italy,3.70,3.80,3.80,3.70,3.65,3.70,3.80,3.80,3.80,3.90
 ,Spain,3.40,3.50,3.40,3.40,3.35,3.45,3.55,3.40,3.55,3.60
 ,UK,5.00,5.00,4.90,4.65,4.55,4.45,4.50,4.30,4.40,4.50
-,"EMEA (%, eop)",Unnamed: 1_level_29,Unnamed: 2_level_29,Unnamed: 3_level_29,Unnamed: 4_level_29,Unnamed: 5_level_29,Unnamed: 6_level_29,Unnamed: 7_level_29,Unnamed: 8_level_29,Unnamed: 9_level_29,Unnamed: 10_level_29
+,"EMEA bond yields (10Y, %, eop)",Unnamed: 1_level_29,Unnamed: 2_level_29,Unnamed: 3_level_29,Unnamed: 4_level_29,Unnamed: 5_level_29,Unnamed: 6_level_29,Unnamed: 7_level_29,Unnamed: 8_level_29,Unnamed: 9_level_29,Unnamed: 10_level_29
 ,Bulgaria,3.65,3.60,3.50,3.30,3.15,3.15,3.20,3.50,3.20,-
 ,Czech Republic,4.54,4.50,4.28,4.20,4.20,4.20,4.20,4.28,4.20,4.20
 ,Hungary,5.03,4.90,4.75,5.14,4.69,4.90,4.75,4.75,4.75,4.45
 ,Poland,5.50,5.20,5.00,5.00,5.00,5.05,5.05,5.00,5.05,5.10
-,"Asia (%, eop)",Unnamed: 1_level_34,Unnamed: 2_level_34,Unnamed: 3_level_34,Unnamed: 4_level_34,Unnamed: 5_level_34,Unnamed: 6_level_34,Unnamed: 7_level_34,Unnamed: 8_level_34,Unnamed: 9_level_34,Unnamed: 10_level_34
+,Romania,7.20,6.90,6.90,6.60,6.50,6.20,6.20,6.90,6.20,5.75
+,"Asia bond yields (10Y, %, eop)",Unnamed: 1_level_35,Unnamed: 2_level_35,Unnamed: 3_level_35,Unnamed: 4_level_35,Unnamed: 5_level_35,Unnamed: 6_level_35,Unnamed: 7_level_35,Unnamed: 8_level_35,Unnamed: 9_level_35,Unnamed: 10_level_35
 ,China,1.75,1.80,1.85,1.90,1.95,1.95,2.00,1.85,2.00,2.15
 ,India,6.90,6.90,6.90,6.40,6.40,6.40,6.40,6.90,6.40,6.50
 ,Indonesia,6.70,6.60,6.50,6.60,6.60,6.60,6.60,6.50,6.60,6.50
