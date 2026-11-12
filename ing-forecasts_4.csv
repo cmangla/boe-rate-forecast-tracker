@@ -10,14 +10,14 @@
 ,US 10Y swap,4.75,4.75,4.50,4.20,4.20,3.95
 ,US 30Y swap,4.90,4.90,4.55,4.45,4.40,4.40
 ,"German Bund yields (%, eop)",Unnamed: 1_level_11,Unnamed: 2_level_11,Unnamed: 3_level_11,Unnamed: 4_level_11,Unnamed: 5_level_11,Unnamed: 6_level_11
-,Bund 2Y,3.00,2.90,2.90,2.80,2.70,2.70
-,Bund 5Y,3.15,3.05,3.00,2.95,2.90,2.90
+,Bund 2Y,3.10,3.00,2.90,2.80,2.70,2.70
+,Bund 5Y,3.20,3.10,3.00,2.95,2.90,2.90
 ,Bund 10Y,3.40,3.30,3.25,3.20,3.20,3.20
 ,Bund 30Y,3.85,3.80,3.80,3.70,3.80,3.80
 ,"EUR swap rates (EURIBOR 6m, %, eop)",Unnamed: 1_level_16,Unnamed: 2_level_16,Unnamed: 3_level_16,Unnamed: 4_level_16,Unnamed: 5_level_16,Unnamed: 6_level_16
 ,EURIBOR 6M,3.00,3.00,2.95,2.85,2.70,2.70
-,EUR 2Y swap,3.30,3.25,3.15,3.00,2.85,2.85
-,EUR 5Y swap,3.40,3.35,3.20,3.05,2.95,2.95
+,EUR 2Y swap,3.40,3.35,3.15,3.00,2.85,2.85
+,EUR 5Y swap,3.45,3.40,3.20,3.05,2.95,2.95
 ,EUR 10Y swap,3.50,3.40,3.35,3.20,3.15,3.15
 ,EUR 30Y swap,3.50,3.45,3.50,3.40,3.50,3.50
 ,"Other G10 bond yields (10Y, %, eop)",Unnamed: 1_level_22,Unnamed: 2_level_22,Unnamed: 3_level_22,Unnamed: 4_level_22,Unnamed: 5_level_22,Unnamed: 6_level_22
@@ -28,26 +28,26 @@
 ,UK,5.30,5.25,5.00,4.70,4.55,4.50
 ,"EMEA bond yields (10Y, %, eop)",Unnamed: 1_level_28,Unnamed: 2_level_28,Unnamed: 3_level_28,Unnamed: 4_level_28,Unnamed: 5_level_28,Unnamed: 6_level_28
 ,Bulgaria,4.15,4.00,3.90,3.80,3.70,3.60
-,Czech Republic,5.25,5.14,5.07,5.01,4.98,4.98
-,Hungary,5.05,5.46,4.99,5.21,5.05,4.45
+,Czech Republic,5.19,5.09,5.02,4.95,4.93,4.93
+,Hungary,5.15,5.57,5.09,5.32,5.15,4.54
 ,Poland,6.35,6.20,5.80,5.65,5.50,5.00
 ,Romania,6.90,6.60,6.50,6.20,6.20,5.75
 ,"Asia bond yields (10Y, %, eop)",Unnamed: 1_level_34,Unnamed: 2_level_34,Unnamed: 3_level_34,Unnamed: 4_level_34,Unnamed: 5_level_34,Unnamed: 6_level_34
-,China,1.75,1.83,1.90,1.95,2.00,2.10
-,India,7.03,7.00,7.00,6.80,6.80,6.50
-,Indonesia,7.00,7.00,7.00,6.90,6.90,6.50
+,China,1.60,1.65,1.75,1.85,1.90,2.10
+,India,7.20,7.30,7.30,7.20,7.20,6.50
+,Indonesia,7.00,7.20,7.00,6.90,6.90,6.50
 ,Korea,4.35,4.25,4.25,4.20,4.15,4.00
 ,Philippines,7.00,6.80,6.90,6.70,6.60,6.20
-,Singapore,2.05,2.20,2.20,2.20,2.20,2.00
+,Singapore,2.40,2.30,2.30,2.30,2.30,2.00
 ,Taiwan,2.00,2.00,2.00,2.05,2.05,2.10
 0,Netherlands,3.5,3.4,3.3,3.25,3.25,3.2
 1,Belgium,4.2,4.25,4.15,4.0,3.9,3.8
 2,Austria,3.65,3.6,3.45,3.4,3.4,3.4
 3,Ireland,3.55,3.5,3.4,3.35,3.3,3.3
 4,Portugal,3.95,3.9,3.8,3.7,3.65,3.6
-5,Switzerland,0.5,0.5,0.45,0.45,0.5,0.7
+5,Switzerland,0.5,0.5,0.55,0.5,0.5,0.7
 6,Finland,3.8,3.75,3.6,3.5,3.5,3.5
-7,Canada,4.0,3.9,3.75,3.75,3.75,4.0
-8,Australia,4.8,4.7,4.7,4.7,4.7,4.5
+7,Canada,3.9,3.9,3.75,3.75,3.75,4.0
+8,Australia,5.2,5.2,5.1,5.0,5.0,4.5
 9,Russia,16.5,16.0,15.5,14.5,14.0,11.0
-10,Turkey,33.38,32.65,30.38,30.21,29.27,22.08
+10,Turkey,33.99,33.37,31.19,31.13,29.69,21.88
