@@ -1,0 +1,11 @@
+[project]
+name = "boe-rate-forecast-tracker"
+version = "0.1.0"
+description = "Automated Bank of England Official Bank Rate forecast tracker and visualization pipeline"
+requires-python = ">=3.11"
+dependencies = [
+    "html5lib>=1.1",
+    "lxml>=5.0",
+    "pandas>=2.2",
+    "requests>=2.31",
+]
